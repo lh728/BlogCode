@@ -275,7 +275,7 @@ export default {
                             modifieditem[key.slice(1,-1)] = item[key];
                         }else{
                             modifieditem[key] = item[key];
-                        }
+                        }   
                     });
                     modifiedData.push(modifieditem);
                 });
